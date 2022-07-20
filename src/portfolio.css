@@ -1,39 +1,29 @@
-/* h1 {
-	font-family: "Roboto Condensed", sans-serif;
-	font-size: 50px;
-} */
-/* 
-.about-section {
-	max-width: 1200px;
-	text-align: center;
-} */
-/* .flex-elements {
-	display: flex;
-	justify-content: space-between;
-} */
-
-/* .left-part {
-	width: 520px;
-}
-
-.right-part {
-	width: 520px;
-} */
-
-.about-section {
+.content-container {
 	padding: 160px 20px;
 }
-.about-section h1 {
+.content h1 {
 	font-size: 64px;
 	line-height: 80px;
 }
 
-.about-section h2 {
+.content h2 {
 	font-size: 28px;
 	line-height: 30px;
 }
 
-.about-section-content {
+.content h3 {
+	font-size: 24px;
+	line-height: 1.5;
+
+	font-family: var(--default-font-family);
+}
+
+.content p {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}
+.content {
 	margin: 30px;
 }
 
@@ -45,6 +35,13 @@
 	line-height: 27px;
 	padding: 15px 30px;
 	text-decoration: none;
+}
+
+.foto1,
+.sunset-foto2,
+.weather-foto3,
+.flowers-foto4 {
+	border-radius: 5px;
 }
 
 @media (max-width: 900px) {
@@ -61,7 +58,7 @@
 		padding: 80px 20px;
 	}
 
-	.about-section {
+	.content {
 		text-align: center;
 		padding: 0;
 	}
@@ -70,4 +67,11 @@
 		padding: 0;
 		text-align: center;
 	} */
+}
+
+.sunset-foto2,
+.weather-foto3,
+.flowers-foto4 {
+	display: block;
+	margin: 0 auto;
 }
