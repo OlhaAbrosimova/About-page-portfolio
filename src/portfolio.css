@@ -58,6 +58,12 @@ nav a:hover {
 	font-family: var(--default-font-family);
 }
 
+h4 {
+	font-size: 48px;
+	font-weight: 700;
+	margin: 0;
+}
+
 .content p {
 	margin: 0;
 	padding: 0;
@@ -107,6 +113,20 @@ nav a:hover {
 		padding: 0;
 	}
 
+	footer .email-link {
+		text-decoration: none;
+		color: black;
+		font-size: 30px !important;
+		display: flex;
+		justify-content: center;
+		margin: 20px 0;
+		font-weight: 600;
+	}
+
+	footer .social-links a {
+		font-size: 30px !important;
+		margin: 0 13px !important;
+	}
 	/* .project-desciption {
 		padding: 0;
 		text-align: center;
@@ -118,4 +138,59 @@ nav a:hover {
 .flowers-foto4 {
 	display: block;
 	margin: 0 auto;
+}
+
+footer {
+	margin: 60px 0;
+}
+footer .email-link {
+	text-decoration: none;
+	color: black;
+	font-size: 45px;
+	display: flex;
+	justify-content: center;
+	margin: 20px 0;
+	font-weight: 600;
+}
+
+footer .work-inquiry {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #ffdca7;
+	padding: 30px 100px;
+	border-radius: 10px;
+}
+
+footer .work-inquiry p {
+	margin: 0;
+	font-size: 20px;
+	font-weight: 700;
+	opacity: 0.7;
+}
+
+footer .email-link:hover {
+	font-size: 47px;
+	color: #38b6ff;
+	transition: all 100ms ease-in;
+}
+
+footer .social-links {
+	text-decoration: none;
+
+	display: flex;
+	justify-content: center;
+	opacity: 0.9;
+}
+
+footer .social-links a {
+	margin: 0 30px;
+	color: black;
+	font-size: 50px;
+}
+
+footer .social-links a:hover {
+	color: #38b6ff;
+	font-size: 53px;
+	transition: all 200ms ease-in-out;
 }
