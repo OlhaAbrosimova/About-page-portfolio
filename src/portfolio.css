@@ -57,6 +57,12 @@ nav a:hover {
 /* .content-container {
 	padding: 60px 20px;
 } */
+
+.text-before-projects {
+	margin-top: 30px;
+	font-size: 30px;
+	text-align: center;
+}
 .hero {
 	background-color: var(--secondary-color);
 	margin: 0px;
@@ -82,7 +88,7 @@ nav a:hover {
 	line-height: 1.5;
 }
 
-h4 {
+.content h1 {
 	font-size: 48px;
 	font-weight: 700;
 	margin: 0;
@@ -118,6 +124,40 @@ h4 {
 	background: #38b6ff;
 } */
 
+.first-project-home {
+	margin-top: 30px;
+}
+
+.first-project-description {
+	padding: 140px 30px;
+	margin-left: 61px;
+}
+
+.second-project-description {
+	padding: 112px 30px;
+	margin-left: 61px;
+}
+
+.third-project-description {
+	padding: 115px 30px;
+	margin-left: 61px;
+}
+
+h2.project-name {
+	margin-bottom: 55px;
+	font-size: 64px;
+	font-weight: 700;
+}
+
+.first-project-description p,
+.second-project-description p,
+.third-project-description p {
+	color: #272142;
+	opacity: 70%;
+	line-height: 30px;
+	margin-bottom: 68px !important;
+}
+
 .foto1,
 .sunset-foto2,
 .weather-foto3,
@@ -149,6 +189,30 @@ h4 {
 		padding: 40px;
 	}
 
+	.text-before-projects {
+		font-size: 15px;
+	}
+
+	.first-project-description,
+	.second-project-description,
+	.third-project-description {
+		text-align: center;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	h2.project-name {
+		text-align: center !important;
+		font-size: 38px;
+		margin-top: 10px;
+		margin-bottom: 15px;
+	}
+
+	.first-project-description p,
+	.second-project-description p,
+	.third-project-description p {
+		margin-bottom: 15px !important;
+	}
 	footer .email-link {
 		text-decoration: none;
 		color: black;
@@ -189,18 +253,23 @@ footer .email-link {
 	font-weight: 600;
 }
 
+footer .work-inquiry h3 {
+	margin-top: 49px;
+	margin-bottom: 18px;
+	font-size: 48px;
+}
 footer .work-inquiry {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	background-color: var(--secondary-color);
-	padding: 30px 100px;
+	padding: 0px 100px;
 	border-radius: 10px;
 }
 
 footer .work-inquiry p {
-	margin: 0;
-	font-size: 20px;
+	margin-bottom: 42px;
+	font-size: 18px;
 	font-weight: 700;
 	opacity: 0.7;
 }
